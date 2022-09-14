@@ -13,7 +13,7 @@ void print_times_table(int n)
 	{
 		for (a = 0; a <= n; a++)
 		{
-			for (b =0; b <=; b++)
+			for (b =0; b <= n; b++)
 			{
 				for (c = 0; c <= n; c++)
 				{
@@ -24,7 +24,7 @@ void print_times_table(int n)
 					_putchar(c +'0');
 				} else if (c < 10 && b != 0)
 				{
-					_puychar(',');
+					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
