@@ -10,16 +10,16 @@ int _isdigit(int c)
 {
 	char i = '0';
 
-	int c = 0;
+	int _isdigit = 0;
 
 	for (; i =< '9'; i++)
 	{
 		if (i == c)
 		{
-			c = 1;
+			_isdigit = 1;
 			break;
 		}
 	}
-	return (c);
+	return (_isdigit);
 }
 
