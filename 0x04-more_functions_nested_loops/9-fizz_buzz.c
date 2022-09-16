@@ -14,10 +14,10 @@ int main(int argc, char *argv)
 	{
 		switch ((i % 5 == 0) << 1 | (i % 3 == 0))
 		{
-			case 0: printf("%d\n", i); break;
-			case 1: printf("Fizz\n"); break;
-			case 2: printf("Buzz\n"); break;
-			case 3: printf("FizzBuzz\n"); break;
+			case 0: printf(" %d\n", i); break;
+			case 1: printf(" Fizz\n"); break;
+			case 2: printf(" Buzz\n"); break;
+			case 3: printf(" Fizz Buzz\n"); break;
 		}
 	}
 }
