@@ -8,18 +8,5 @@
 
 int _isdigit(int c)
 {
-	char i = '0';
-
-	int _isdigit = 0;
-
-	for (; i =< '9'; i++)
-	{
-		if (i == c)
-		{
-			_isdigit = 1;
-			break;
-		}
-	}
-	return (_isdigit);
+	return (c >= '0' && c <= '9');
 }
-
