@@ -23,7 +23,7 @@ int main(void)
 		j += (crack[i] + '0');
 		putchar(crack[i] + '0');
 
-		if ((2772 - sum) - '0' < 78)
+		if ((2772 - j) - '0' < 78)
 		{
 			k = 2772 - j - '0';
 			crack += k;
