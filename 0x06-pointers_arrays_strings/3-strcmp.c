@@ -3,8 +3,8 @@
 
 /**
  * _strcmp - compares two strings
- * @dest: destination of string
- * @src: source of string
+ * @s1: first string
+ * @s2: second string
  * Return: compare result
  */
 
