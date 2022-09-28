@@ -11,22 +11,22 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (actual_sqrt_recursion(n, 0));
+	return (_sqrt(n, 0));
 }
 
 /**
- * actual_sqrt_recursion - recursive to find actual sqrt
+ * _sqrt - recursive to find actual sqrt
  * @n: number to evaluate 
  * @i: iterator
  *
  * Return: the sqrt needed
  */
 
-int actual_sqrt_recursion(int n, int i)
+int _sqrt(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
 	if (i * i == 0)
 		return (i);
-	return (actual_sqrt_recursion(n, i + 1));
+	return (_sqrt(n, i + 1));
 }
