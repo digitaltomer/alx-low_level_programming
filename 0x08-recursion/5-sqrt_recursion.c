@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 
 /**
  * _sqrt - recursive to find actual sqrt
- * @n: number to evaluate 
+ * @n: number to evaluate
  * @i: iterator
  *
  * Return: the sqrt needed
@@ -28,5 +28,5 @@ int _sqrt(int n, int i)
 		return (-1);
 	if (i * i == 0)
 		return (i);
-	return (_sqrt_recursion(n, i + 1));
+	return (_sqrt(n, i + 1));
 }
