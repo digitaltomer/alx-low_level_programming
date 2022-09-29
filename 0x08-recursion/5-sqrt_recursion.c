@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (_sqrt(n, 0));
+	return (_sqrt(n, 1));
 }
 
 /**
@@ -25,7 +25,7 @@ int _sqrt_recursion(int n)
 
 int _sqrt(int n, int i)
 {
-	if (i * i > n)
+	if (i > n)
 		return (-1);
 	if (i * i == 0)
 		return (i);
