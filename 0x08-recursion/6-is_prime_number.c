@@ -1,5 +1,5 @@
 #include "main.h"
-int is_prime(int n, int start); 
+int is_prime(int n, int start);
 
 /**
  * is_prime_number - returns 1 if n is prime
