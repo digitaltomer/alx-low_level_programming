@@ -1,1 +1,1 @@
-funtion pointers
+Singly linked lists
