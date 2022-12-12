@@ -1,1 +1,1 @@
-Singly linked lists
+Dynamic libraries
